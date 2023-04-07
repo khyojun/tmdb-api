@@ -22,4 +22,5 @@ ttkey=본인이 발급받은 api key
     - `application.properties` 에 꼭 key를 받아서 넣어야 합니다! 반드시! 아니면 권한 허용이 안되서 데이터를 끌어오지 못합니다.
     - [tmdb api key 생성하기](https://velog.io/@green9930/tmdb-API-key-%EB%B0%9C%EA%B8%89%EB%B0%9B%EA%B8%B0)
     - 문제시 바로 물어봐주세요!
+    - [TMDB API 사용법](https://developers.themoviedb.org/3/discover/movie-discover)
 
