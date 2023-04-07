@@ -54,9 +54,7 @@ public class TmdbApiClient {
                 titleAndPoster.put((String) originalTitle, (String) posterPath);
             }
 
-
         }
-
 
         return titleAndPoster;
     }

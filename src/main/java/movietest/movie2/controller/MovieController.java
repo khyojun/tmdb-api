@@ -21,8 +21,9 @@ import org.springframework.web.client.RestTemplate;
 @Controller
 public class MovieController {
 
-    @Autowired
-    TmdbApiClient tmdbApiClient;
+    @Autowired // 스프링 컨테이너에 등록되어있는 @Service 것을 들고와야 한다. DI 활용해야 다른 어노테이션들이 작동한다.
+    TmdbApiClient tmdbApiClient; // autowired 해서 생성하지 않고 new 로 생성하면 @Value 어노테이션이 작동이 되지 않는다.
+
 
     @GetMapping("/")
     public String getMovieName(Model model) {
